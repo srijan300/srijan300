@@ -9,8 +9,8 @@
 
 ## 📍 About Me
 
-- 💼 Final-year Computer Science student passionate about building intelligent apps  
-- 🧠 Currently diving deep into **LLMs**, **DevOps**, and **AI SaaS platforms**
+- 💼 Pre-Final-year Computer Science student passionate about building intelligent apps  
+- 🧠 Currently diving deep into **Full-Stack-Developement**, **DevOps**, and **AI SaaS platforms**
 - 🛠️ Building real-world full-stack projects like **AI Image Generator**, **Chat App**, and more
 - 📚 I love learning by building and solving practical problems
 - 📫 Reach me at **paulsrijan300@gmail.com**
