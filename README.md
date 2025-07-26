@@ -1,21 +1,22 @@
 # 💫 About Me:
- 💻 Full-stack web projects : 
-Working on QuickChat (real-time chat app) and QuickAI (AI SaaS platform) using the MERN stack and OpenAI APIs to deliver smart, scalable applications.
 
-🤝 Solo Developer Journey : 
-Not currently collaborating on team projects — focused on crafting a strong personal portfolio of full-stack applications from the ground up.
+💻 **Full-stack web projects**  
+Working on **QuickChat** (real-time chat app) and **QuickAI** (AI SaaS platform) using the **MERN stack** and **OpenAI APIs** to deliver smart, scalable applications.
 
-⚙️ What I’m Improving : 
-Optimizing backend architecture, integrating CI/CD pipelines, and enhancing API security and performance.
+🤝 **Solo Developer Journey**  
+Not currently collaborating on team projects — focused on crafting a strong **personal portfolio** of full-stack applications from the ground up.
 
-📘 What I’m Learning : 
-Exploring advanced React patterns, PostgreSQL optimization, and deploying apps via Vercel and cloud platforms like AWS/GCP.
+⚙️ **What I’m Improving**  
+Optimizing **backend architecture**, integrating **CI/CD pipelines**, and enhancing **API security and performance**.
 
-💬 Ask Me About : 
-How to build full-stack apps from scratch, integrate OpenAI, and balance frontend aesthetics with robust backend logic.
+📘 **What I’m Learning**  
+Exploring **advanced React patterns**, **PostgreSQL optimization**, and deploying apps via **Vercel** and cloud platforms like **AWS/GCP**.
 
-🚀 My Journey : 
-Started with competitive programming in C++, now a self-taught developer building real-world projects in web development and AI.
+💬 **Ask Me About**  
+How to build full-stack apps from scratch, integrate **OpenAI**, and balance **frontend aesthetics** with **robust backend logic**.
+
+🚀 **My Journey**  
+Started with **competitive programming in C++**, now a self-taught developer building real-world projects in **web development** and **AI**.
 
 
 ## 🌐 Socials:
