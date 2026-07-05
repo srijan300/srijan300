@@ -222,7 +222,7 @@ Building and deploying DigitalMSME AI, a production AI-advisory platform for MSM
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=srijan300&theme=algolia&no-frame=true&column=4&margin-w=10&margin-h=10&title=Commits,Stars,Followers,PullRequest"/>
+<img src="https://github-profile-trophy.vercel.app/?username=srijan300&theme=onedark&no-frame=true&column=4&margin-w=10&margin-h=10&title=Commits,Stars,Followers,PullRequest"/>
 
 </div>
 
@@ -232,11 +232,9 @@ Building and deploying DigitalMSME AI, a production AI-advisory platform for MSM
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=srijan300&theme=react-dark&hide_border=true&bg_color=0F0817&color=C4B5FD&line=8B5CF6&point=E9D5FF"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=srijan300&theme=react&hide_border=true&bg_color=0F0817&color=C4B5FD&line=8B5CF6&point=E9D5FF"/>
 
 </div>
-
----
 
 ---
 
