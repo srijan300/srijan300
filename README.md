@@ -218,16 +218,6 @@ Building and deploying DigitalMSME AI, a production AI-advisory platform for MSM
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=srijan300&theme=onedark&no-frame=true&column=4&margin-w=10&margin-h=10&title=Commits,Stars,Followers,PullRequest"/>
-
-</div>
-
----
-
 ## 📈 Contribution Activity
 
 <div align="center">
