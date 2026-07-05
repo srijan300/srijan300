@@ -238,16 +238,6 @@ Building and deploying DigitalMSME AI, a production AI-advisory platform for MSM
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/srijan300/srijan300/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
-> To enable this: create `.github/workflows/snake.yml` in your profile repo (`srijan300/srijan300`) — see setup notes below.
-
 ---
 
 ## 🔭 Current Focus
