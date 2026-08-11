@@ -1,22 +1,41 @@
-name: generate-snake
+name: 🐍 Generate Snake Animation
+
+# Generates the contribution-snake SVGs and pushes them to the "output" branch.
+# The README references them at:
+#   https://raw.githubusercontent.com/srijan300/srijan300/output/github-snake-dark.svg
+#   https://raw.githubusercontent.com/srijan300/srijan300/output/github-snake.svg
+
 on:
+  # Refresh a couple of times a day so the snake stays current
   schedule:
-    - cron: "0 */6 * * *"
-  push:
-    branches: [main]
+    - cron: "0 */12 * * *"
+  # Allow manual runs from the Actions tab
   workflow_dispatch:
+  # Regenerate whenever you push to main
+  push:
+    branches:
+      - main
+
+# Required so the built-in GITHUB_TOKEN can push to the output branch
+permissions:
+  contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate snake SVGs (neon palette)
+        uses: Platane/snk/svg-only@v3
+        id: snake-gen
         with:
-          github_user_name: srijan300
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2305D9E8&color_dots=%23161b22,%233a1a5e,%237B2FF7,%23c026d3,%23FF2A6D
+
+      - name: Push SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
