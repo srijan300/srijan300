@@ -66,3 +66,293 @@ based_in:   Kolkata, India
 focus:      [ Full-Stack Engineering, Multi-Agent Systems, RAG & GenAI, Scalable Backends ]
 mindset:    Ship real products · measure real users · iterate fast
 open_to:    [ SDE Internships, Full-Stack Roles, AI Engineer Roles ]
+```
+
+I'm a Computer Science undergraduate who builds **production software, not just coursework**. As a Software Engineering Intern at **CeDISI Partners LLP**, I architected and shipped **DigitalMSME AI** — an AI advisory platform serving **100+ production users**, integrating **20+ REST APIs**, and sustaining **500+ concurrent requests**. 
+
+Beyond web platforms, I build autonomous systems: from **PriorityPulse** (multi-agent inbox intelligence with semantic Knowledge Graphs) to **FinServe** (two-stage RAG document QA platform with vector search & cross-encoder reranking). Off the clock, I sharpen problem-solving fundamentals with **200+ DSA problems** in C++ across LeetCode and CodeChef.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 🧠 Tech Stack
+
+<div align="center">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=cpp,py,js,ts&theme=dark" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=react,vite,html,css,tailwind,bootstrap&theme=dark" />
+
+**Backend & Microservices**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mongodb,mysql&theme=dark" />
+
+**DevOps, Cloud & Tooling**
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,vercel,postman,vscode,figma&theme=dark" />
+
+**AI, Vector & Graph Tech**
+
+![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-Vector_Search-05D9E8?style=flat-square&labelColor=0D0221)
+![NetworkX](https://img.shields.io/badge/NetworkX-Knowledge_Graph-FF2A6D?style=flat-square&labelColor=0D0221)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-MCP-7B2FF7?style=flat-square&labelColor=0D0221)
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 🤖 AI & Engineering Expertise
+
+<div align="center">
+
+| Domain | Proficiency | Highlights & Production Implementations |
+|---|:---:|---|
+| **Multi-Agent Systems** | ●●●●○ | Autonomous routing, supervisor architectures, stateful agent execution (**PriorityPulse**, **TripMate AI**) |
+| **RAG & Vector Retrieval** | ●●●●○ | FAISS IndexFlatIP, dense embeddings, Cross-Encoder reranking, chunking pipelines (**FinServe**) |
+| **Knowledge Graphs** | ●●●●○ | Triples extraction, NetworkX graph querying, relationship reasoning grounded in LLM context |
+| **Production AI Integration** | ●●●●○ | OpenAI & Gemini streaming, multi-turn session persistence, prompt engineering, schema guardrails |
+| **Real-Time Systems** | ●●●●○ | Bidirectional WebSockets (Socket.io) with sub-100ms latency, stateless JWT session handling |
+| **Applied ML & Data** | ●●●○○ | Scikit-Learn classification, SMOTE class balancing, PCA dimensionality analysis (99.82% accuracy) |
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 🚀 Featured Projects
+
+<details open>
+<summary><b>⚡ PriorityPulse — Autonomous Multi-Agent Email Intelligence</b></summary>
+
+<br/>
+
+An autonomous multi-agent system that monitors Google Workspace inboxes, computes priority scores across user-defined criteria, auto-schedules calendar meetings, and builds an interconnected semantic Knowledge Graph.
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | Python · FastAPI · React 19 · Vite · Google Gemini · NetworkX · OAuth 2.0 |
+| **Agents** | 5 autonomous agents: Criteria, Evaluation, Verifier, Knowledge Graph, Calendar |
+| **Knowledge Graph** | NetworkX engine extracting Subject-Relation-Object triples for grounded contextual reasoning |
+| **Integrations** | Google Workspace OAuth 2.0, Gmail API v1, Google Calendar API v3 |
+| **Deployment** | FastAPI Backend + React 19 Frontend deployed on Render |
+| **Repository** | [github.com/srijan300/PriorityPulse](https://github.com/srijan300/PriorityPulse) |
+| **Live App** | [prioritypulse-frontend.onrender.com](https://prioritypulse-frontend.onrender.com/) |
+
+</details>
+
+<details open>
+<summary><b>📄 FinServe — Intelligent Document QA & RAG Platform</b></summary>
+
+<br/>
+
+Enterprise Retrieval-Augmented Generation (RAG) platform parsing multi-format files with dense vector search, Cross-Encoder reranking, and grounded attribution.
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | FastAPI · Python (Pydantic) · React 18 · Vite · Tailwind CSS · Docker · GitHub Actions |
+| **Ingestion** | Multi-format ingestion (PDF, DOCX, EML) with structure-aware chunking |
+| **Retrieval** | Two-stage pipeline: FAISS IndexFlatIP (`bge-small-en-v1.5`) + Cross-Encoder (`ms-marco-MiniLM-L-6-v2`) |
+| **Generation** | Context-grounded synthesis via Google Gemini 2.5 Flash with strict document citations & explainability UI |
+| **DevOps** | Containerized with Docker, automated CI/CD pipeline via GitHub Actions, deployed on Render |
+| **Repository** | [github.com/srijan300/FinservAPI](https://github.com/srijan300/FinservAPI) |
+| **Live App** | [finservapi-brav.onrender.com](https://finservapi-brav.onrender.com/) |
+
+</details>
+
+<details open>
+<summary><b>💬 QuickChat — Real-Time MERN Messaging Platform</b></summary>
+
+<br/>
+
+Full-stack real-time communication platform with secure JWT authentication, bcrypt password hashing, and live bidirectional messaging at sub-100ms latency.
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | React.js · Node.js · Express.js · MongoDB · Socket.io · Tailwind CSS · Vercel |
+| **Scale** | 20+ concurrent users · 12+ secure REST API endpoints with middleware validation |
+| **Performance** | Event-driven WebSocket streaming with **sub-100ms** latency |
+| **Security** | Stateless JWT authentication, bcrypt password hashing, role-protected routes |
+| **Repository** | [github.com/srijan300/Chat-Application](https://github.com/srijan300/Chat-Application) |
+| **Live App** | [chat-application-frontend-eosin-nine.vercel.app/login](https://chat-application-frontend-eosin-nine.vercel.app/login) |
+
+</details>
+
+<details>
+<summary><b>🤖 DigitalMSME AI — Production AI Advisory Platform</b></summary>
+
+<br/>
+
+Production AI-powered business advisory platform built during internship — multi-turn conversational AI, real-time streaming responses, and a role-based CMS serving real MSME businesses.
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | React.js · Node.js · Express.js · PostgreSQL · OpenAI API · Docker |
+| **Scale** | 100+ production users · 20+ REST APIs · 500+ concurrent requests sustained |
+| **AI** | Multi-turn context retention, session management, real-time response streaming |
+| **Security** | JWT-protected routes, role-based access control (RBAC), authenticated CMS |
+| **Impact** | Client-facing CMS cut content turnaround time by **40%** |
+| **Platform** | [digitalmsme.com](https://digitalmsme.com) |
+
+</details>
+
+<details>
+<summary><b>🧭 TripMate AI — Multi-Agent Travel Planner</b></summary>
+
+<br/>
+
+Autonomous travel planning system coordinating specialist agents via supervisor routing, Model Context Protocol (MCP), and human-in-the-loop state checkpoints.
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | Python · FastAPI · LangGraph · FastMCP · Groq LLM · Neon PostgreSQL · Docker |
+| **Architecture** | Supervisor routing across 5 agents (Flight, Hotel, Weather, Budget, Itinerary) via tool calling |
+| **Protocols** | Decoupled Model Context Protocol (MCP) server querying live APIs (AviationStack, OpenWeatherMap, Tavily) |
+| **Persistence** | PostgresSaver state checkpointing with Human-in-the-Loop interrupt & resume mechanisms |
+| **Repository** | [github.com/srijan300/Multi-Agent-System](https://github.com/srijan300/Multi-Agent-System) |
+| **Live App** | [multi-agent-system-tl4k.onrender.com](https://multi-agent-system-tl4k.onrender.com/) |
+
+</details>
+
+<details>
+<summary><b>📊 Credit Card Fraud Detection — ML Pipeline</b></summary>
+
+<br/>
+
+Machine learning pipeline trained on 284,807 real financial transactions to detect fraudulent transactions under extreme class imbalance.
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | Python · Pandas · NumPy · Scikit-Learn · Matplotlib |
+| **Dataset** | 284,807 transactions across 30 PCA-transformed features |
+| **Performance** | **99.82% accuracy** benchmarked via precision, recall, and F1-score |
+| **Method** | SMOTE class rebalancing with Decision Trees & hyperparameter tuning |
+| **Repository** | [github.com/srijan300/Credit_Card_Fraud_Detection_Project](https://github.com/srijan300/Credit_Card_Fraud_Detection_Project) |
+
+</details>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 💼 Experience
+
+> ### `Software Engineering Intern` — **CeDISI Partners LLP** · *May 2026 – July 2026 · Remote*
+>
+> Architected and shipped **DigitalMSME AI**, a production AI-advisory platform for MSMEs.
+>
+> - 🏗️ Architected a full-stack platform on **React.js · Node.js · Express.js · PostgreSQL**, integrating **20+ REST APIs** across financial, business, identity-verification, and government services for **100+ MSME users** in production
+> - 🔐 Delivered a client-facing **CMS** with secure auth, role-based access control, and modular reusable React components — cutting content turnaround time by **40%**
+> - 🤖 Embedded the **OpenAI API** into an AI financial-advisory assistant with prompt engineering, session management, and multi-turn context retention
+> - ⚙️ Hardened the backend with centralized error handling, fallback mechanisms, and Docker-based deployment — sustaining **500+ concurrent API requests**
+
+`React.js` `Node.js` `Express.js` `PostgreSQL` `OpenAI API` `Docker` `REST APIs`
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 🏅 Achievements & Certifications
+
+<div align="center">
+
+| Recognition | Details |
+|---|---|
+| 🎯 **JEE Advanced 2023** | Qualified — Top **2.5%** of 1.2M+ JEE Main qualifiers |
+| 🛰️ **ISRO Certification** | AI/ML for Geodata Analysis — Deep Learning, CNN, satellite imagery |
+| 🔐 **TATA Job Simulation** | Cybersecurity Analyst (Forage) — threat analysis, incident response |
+| 🧩 **Competitive Programming** | 200+ DSA problems solved in C++ on LeetCode & CodeChef |
+| 🎤 **GDSC RGIPT** | PR Executive — outreach for 50+ students, grew participation **30%** |
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=srijan300&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7&title=Stars,Followers,Commits,Repositories,Experience,MultiLanguage" alt="trophies"/>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 💻 Coding Profiles
+
+<div align="center">
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=0D0221)](https://leetcode.com/u/floks/)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/srijan300)
+
+<br/>
+
+<img src="https://leetcard.jacoblin.cool/floks?theme=dark&font=Fira%20Code&ext=heatmap&animation=false" alt="LeetCode stats"/>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=srijan300&show_icons=true&count_private=true&hide_border=true&bg_color=0D0221&title_color=05D9E8&icon_color=FF2A6D&text_color=D1F7FF"/>
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=srijan300&hide_border=true&background=0D0221&ring=FF2A6D&fire=05D9E8&currStreakLabel=05D9E8&sideLabels=D1F7FF&dates=7B2FF7&stroke=7B2FF7"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=srijan300&layout=compact&hide_border=true&bg_color=0D0221&title_color=FF2A6D&text_color=D1F7FF&langs_count=8"/>
+
+</div>
+
+<!-- ░░░ CONTRIBUTION SNAKE ░░░ -->
+<div align="center">
+
+### `🐍 Watch the snake devour my contributions`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/srijan300/srijan300/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/srijan300/srijan300/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/srijan300/srijan300/output/github-snake.svg" width="100%" />
+</picture>
+
+</div>
+
+<!-- ░░░ ACTIVITY GRAPH ░░░ -->
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=srijan300&hide_border=true&bg_color=0D0221&color=05D9E8&line=FF2A6D&point=E9D5FF&area=true&area_color=7B2FF7&custom_title=Contribution%20Pulse"/>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 🔭 Current Focus
+
+```yaml
+learning:
+  - Scalable backend architecture & distributed system design
+  - Advanced React 19 patterns · Vector database performance
+building:
+  - PriorityPulse — multi-agent email prioritization & KG engine
+  - FinServe — enterprise RAG platform with two-stage reranking
+exploring:
+  - Autonomous agents, Model Context Protocol (MCP) & graph reasoning
+open_to:
+  - Software Engineering Internships
+  - Full-Stack Developer roles
+```
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 📬 Connect
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-FF2A6D?style=for-the-badge&logo=gmail&logoColor=white)](mailto:paulsrijan300@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-7B2FF7?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srijan-paul-14a0a0275/)
+[![GitHub](https://img.shields.io/badge/GitHub-0D0221?style=for-the-badge&logo=github&logoColor=05D9E8)](https://github.com/srijan300)
+[![Portfolio](https://img.shields.io/badge/Portfolio-05D9E8?style=for-the-badge&logo=vercel&logoColor=0D0221)](https://srijan300.github.io/My-Portfolio/)
+
+<br/>
+
+***"Code is easy. Building something people actually rely on — that's the real engineering."***
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:05D9E8,50:FF2A6D,100:7B2FF7&height=120&section=footer"/>
+
+</div>
