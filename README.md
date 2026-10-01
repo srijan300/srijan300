@@ -65,12 +65,12 @@ education:  B.Tech Computer Science · RGIPT (2023 – 2027)
 based_in:   Kolkata, India
 focus:      [ Full-Stack Engineering, Multi-Agent Systems, RAG & GenAI, Scalable Backends ]
 mindset:    Ship real products · measure real users · iterate fast
-open_to:    [ SDE Internships, Full-Stack Roles, AI Engineer Roles ]
+open_to:    [ SDE Roles, Full-Stack Roles, AI Engineer Roles ]
 ```
 
 I'm a Computer Science undergraduate who builds **production software, not just coursework**. As a Software Engineering Intern at **CeDISI Partners LLP**, I architected and shipped **DigitalMSME AI** — an AI advisory platform serving **100+ production users**, integrating **20+ REST APIs**, and sustaining **500+ concurrent requests**. 
 
-Beyond web platforms, I build autonomous systems: from **PriorityPulse** (multi-agent inbox intelligence with semantic Knowledge Graphs) to **FinServe** (two-stage RAG document QA platform with vector search & cross-encoder reranking). Off the clock, I sharpen problem-solving fundamentals with **200+ DSA problems** in C++ across LeetCode and CodeChef.
+Beyond web platforms, I build autonomous systems: from **PriorityPulse** (multi-agent inbox intelligence with semantic Knowledge Graphs) to **FinServe** (two-stage RAG document QA platform with vector search & cross-encoder reranking). Off the clock, I sharpen problem-solving fundamentals with **250+ DSA problems** in C++ across LeetCode and CodeChef.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
